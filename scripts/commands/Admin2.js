@@ -1,7 +1,7 @@
 module.exports.config = {
 name: "admin",
 version: "1.0.1", 
-hasPermssion: 0,
+hasPermssion: 1,
 credits: "aizen code", //don't change the credits please
 description: "Admin and Bot info.",
 commandCategory: "...",
