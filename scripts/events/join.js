@@ -31,10 +31,9 @@ module.exports.run = async function({ api, event }) {
 	if (event.logMessageData.addedParticipants.some(i => i.userFbId == api.getCurrentUserID())) {
 		api.changeNickname(`{ ${global.config.PREFIX} } × ${(!global.config.BOTNAME) ? "bot" : global.config.BOTNAME}`, threadID, api.getCurrentUserID());
 		const fs = require("fs");
-		return api.sendMessage("চলে এসেছি আমি তোমাদের জামাই ফাহিম কলিজা টা [I love YOU ]🙋‍♂️😘", event.threadID, () => api.sendMessage({body:`FAHIM ISLAM  
-		} while ()-ＢＯＴ００ 1 1 CONNECTED«
+		return api.sendMessage("Im ফাহিম, Im a bot 🙋", event.threadID, () => api.sendMessage({body:`Nil Ahmed  CONNECTED«
 
-আসসালামু আলাইকুম☘️
+𝘼𝙎𝙎𝙇𝘼𝙈 𝙊 𝘼𝙇𝙄𝙆𝙐𝙈☘️
 <------------------------------>  
 BOT CONNECTED SUCCESFUL !!! 
 
@@ -42,21 +41,27 @@ APPROVAL ALLOW IN THIS GROUP!!!
 <------------------------------>
 
 USE HELP TO SEE COMMAND 
-\n\nUse ${global.config.PREFIX}help to see commands.\n\nexample :\n${global.config.PREFIX}hadis (text)\n${global.config.PREFIX}neymar (photo)\n${global.config.PREFIX}help (comman)\n${global.config.PREFIX}info 
+\n\nUse ${global.config.PREFIX}help to see commands.\n\nexample :\n${global.config.PREFIX}hadis (text)\n${global.config.PREFIX}neymar (photo)\n${global.config.PREFIX}help (command)\n${global.config.PREFIX}info 
 <<<<<------------------------------>>>>>
 AND FOR ANY REPORT OR CONTACT BOT DEVELOPER
 
-OWNER: Fahim Islam 
+༻𝐎𝐖𝐍𝐄𝐑:- ☞Fahim Islam  💔☜ ༺
 
-♻Facebook: 
+༒𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 〠 Fahim janu 💔〠.༒
 
+༒𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝༒:- 
+☞  ☜ 
 
+༻𝘠𝘰𝘶𝘵𝘶𝘣𝘦 𝘭𝘪𝘯𝘬༺:- 
+☞ nai 🥱 ☜
 
+֎𝘍𝘰𝘳 𝘈𝘯𝘺 𝘒𝘪𝘯𝘥 𝘖𝘧 𝘏𝘦𝘭𝘱 messenger Inbox֍:-
 
+☞ ☜
 
+ ֎𝘊𝘰𝘯𝘵𝘢𝘤𝘵 𝘔𝘦 𝘖𝘯 𝘞𝘩𝘢𝘵𝘴𝘈𝘱𝘱֍ :-  ☞ dim na ☜
 
-
-⚠️Wp: KISU BOLLAR THAKLE INBOX `, attachment: fs.createReadStream(__dirname + "/cache/joinmp4/ffwel75211.mp4")} ,threadID));
+ `, attachment: "/cache/joinmp4/h.jpg")} ,threadID));
 	}
 	else {
 		try {
@@ -77,7 +82,7 @@ OWNER: Fahim Islam
 			}
 			memLength.sort((a, b) => a - b);
 			
-			(typeof threadData.customJoin == "undefined") ? msg = "╔════•|      ✿      |•════╗\n 💐আ্ঁস্ঁসা্ঁলা্ঁমু্ঁ💚আ্ঁলা্ঁই্ঁকু্ঁম্ঁ💐\n╚════•|      ✿      |•════╝\n\n    ✨🆆🅴🅻🅻 🅲🅾🅼🅴✨\n\n                 ❥𝐍𝐄𝐖~\n\n        ~🇲‌🇪‌🇲‌🇧‌🇪‌🇷‌~\n\n             [   {name} ]\n\n༄✺আ্ঁপ্ঁনা্ঁকে্ঁ আ্ঁমা্ঁদে্ঁর্ঁ✺࿐\n\n{threadName}\n\n 🥰🖤🌸—এ্ঁর্ঁ প্ঁক্ষ্ঁ🍀থে্ঁকে্ঁ🍀—🌸🥀\n\n         🥀_ভা্ঁলো্ঁবা্ঁসা্ঁ_অ্ঁভি্ঁরা্ঁম্ঁ_🥀\n\n༄✺আঁপঁনিঁ এঁইঁ গ্রুঁপেঁর {soThanhVien} নঁং মে্ঁম্বা্ঁরঁ ࿐\n\n    ╔╦══•    •✠•❀•✠ •   •══╦╗\n        ♥  𝐁𝐎𝐓'𝐬 𝐎𝐖𝐍𝐄𝐑♥\n\n                           ☟                     \n\n♥King off fahim Islam ♥\n    ╚╩══•    •✠•❀•✠ •    •══╩╝" : msg = threadData.customJoin;
+			(typeof threadData.customJoin == "undefined") ? msg = "╔════•|      ✿      |•════╗\n 💐🇪 🇳 🇹 🇪 🇷  💚 MrTomXxX 💐\n╚════•|      ✿      |•════╝\n\n    ✨🇼 🇪 🇱 🇨 🇴 🇳 🇪 ✨\n\n                 ❥🄽🄴🅆~\n\n        ~🇲‌🇪‌🇲‌🇧‌🇪‌🇷‌~\n\n             [   {name} ]\n\n༄✺Fahim Islam  MTX ✺\n\n{threadName}\n\n 🥰🖤🌸—𝙐𝙎𝙀 𝙃𝙀𝙇𝙋🍀𝙏𝙊 𝙎𝙀𝙀 𝘼𝙇𝙇 𝘾𝙊𝙈𝙈𝘼𝙉𝘿𝙎🍀—🌸🥀\n\n         🥀_HOW TO MAKE FACEBOOK MESSENGER CHAT BOT_🥀\n\n༄✺YOUTUBE VIDEO LINK {soThanhVien}  ࿐\n\n    ╔╦══•    •✠•❀•✠ •   •══╦╗\n        ♥  𝐁𝐎𝐓'𝐬 𝐎𝐖𝐍𝐄𝐑♥\n\n                           ☟                     \n\n♥ Fahim Islam  ♥\n    ╚╩══•    •✠•❀•✠ •    •══╩╝" : msg = threadData.customJoin;
 			msg = msg
 			.replace(/\{name}/g, nameArray.join(', '))
 			.replace(/\{type}/g, (memLength.length > 1) ?  'You' : 'Friend')
@@ -98,4 +103,4 @@ OWNER: Fahim Islam
 			return api.sendMessage(formPush, threadID);
 		} catch (e) { return console.log(e) };
 	}
-}
+	}
